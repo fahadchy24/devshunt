@@ -13,14 +13,11 @@ module.exports = {
             fontFamily: {
                 'poppins': ['Poppins', 'sans-serif', ...defaultTheme.fontFamily.sans],
             },
-            backgroundImage: {
-                'hero': 'url(../images/banner.png)',
-            },
             container: {
                 padding: '2rem'
             },
         },
     },
 
-    plugins: [require('@tailwindcss/forms')],
+    // plugins: [require('@tailwindcss/forms')],
 };
