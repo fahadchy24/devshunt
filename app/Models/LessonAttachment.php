@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class LessonAttachment extends Model
 {
     use HasFactory;
+
+    public function leasson()
+    {
+        return $this->belongsTo(Lesson::class);
+    }
 }
