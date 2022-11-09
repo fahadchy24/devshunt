@@ -172,7 +172,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course1.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course1.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -218,7 +218,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course2.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course2.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -264,7 +264,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course3.jpg') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course3.jpg') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -310,7 +310,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course1.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course1.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -356,7 +356,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course2.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course2.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -420,7 +420,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course1.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course1.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -466,7 +466,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course2.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course2.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -512,7 +512,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course3.jpg') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course3.jpg') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -558,7 +558,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course1.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course1.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
@@ -604,7 +604,7 @@
                 <div class="course-item group">
                     <div
                         class="border border-gray-100 shadow-sm hover:shadow-md rounded mr-3 transition group-hover:opacity-75">
-                        <img src="{{ asset('images/course2.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
+                        <img src="{{ asset('images/courses/course2.png') }}" alt="course-1" class="w-full rounded rounded-b-none">
                         <div class="mt-3 p-3">
                             <div class="flex justify-between">
                                 <div>
