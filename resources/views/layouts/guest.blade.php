@@ -10,8 +10,8 @@
 
     @include('layouts.partials.styles')
 
+    <!-- Scripts -->
     @include('layouts.partials.scripts')
-
 </head>
 
 <body class="font-poppins text-gray-800 overflow-x-hidden" id="top"">

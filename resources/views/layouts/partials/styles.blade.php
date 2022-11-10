@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="{{ asset('vendors/slick/slick-theme.css') }}">
 
 <!-- Style -->
-<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+{{-- <link href="{{ asset('css/style.css') }}" rel="stylesheet"> --}}
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">

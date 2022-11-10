@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Backend\CategoryController;
 use App\Http\Controllers\Backend\DashboardController;
 use Illuminate\Support\Facades\Route;
 
@@ -12,8 +13,7 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
-
+ */
 
 Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
-Route::get('/categories', [DashboardController::class, 'categories'])->name('categoies.index');
+Route::resource('/categories', CategoryController::class);
