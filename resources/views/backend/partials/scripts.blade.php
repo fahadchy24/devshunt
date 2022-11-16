@@ -12,5 +12,5 @@
 <script src="{{ asset('vendors/chart.js/Chart.min.js') }}"></script>
 
 {{-- Data table --}}
-<script src="{{ asset('vendors/datatables/dataTables.bootstrap4.min.js') }}"></script>
 <script src="{{ asset('vendors/datatables/datatables.min.js') }}"></script>
+{{-- <script src="{{ asset('vendors/datatables/dataTables.bootstrap4.min.js') }}"></script> --}}

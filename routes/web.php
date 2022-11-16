@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Frontend\CategoryController;
 use App\Http\Controllers\Frontend\CourseController;
 use App\Http\Controllers\Frontend\HomePageController;
 use Illuminate\Support\Facades\Route;
@@ -22,12 +23,19 @@ use Illuminate\Support\Facades\Route;
 // Home Page Routes
 Route::get('/', [HomePageController::class, 'homePage'])->name('home');
 
+
 // Course List Page Routes
-Route::get('/courses', [CourseController::class, 'index'])->name('course.index');
-Route::get('/courses/show', [CourseController::class, 'show'])->name('course.show');
+Route::get('/courses', [CourseController::class, 'index'])->name('courses.index');
+Route::get('/courses/show', [CourseController::class, 'show'])->name('courses.show');
+
+
+// Category Page by Slug
+Route::get('/category/{slug}', [CategoryController::class, 'show'])->name('categories.show');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
 
 require __DIR__.'/auth.php';
