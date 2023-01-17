@@ -14,3 +14,13 @@
 {{-- Data table --}}
 <script src="{{ asset('vendors/datatables/datatables.min.js') }}"></script>
 {{-- <script src="{{ asset('vendors/datatables/dataTables.bootstrap4.min.js') }}"></script> --}}
+
+{{-- CKEditor --}}
+<script src="{{ asset('vendors/ckeditor/ckeditor.js') }}"></script>
+<script>
+    ClassicEditor
+        .create(document.querySelector('#editor'))
+        .catch(error => {
+            console.error(error);
+        });
+</script>

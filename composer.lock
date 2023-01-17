@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf43c4f486364a422ff19ba8064bf769",
+    "content-hash": "800e627a2e518144d45c6c7fe66df1e7",
     "packages": [
         {
             "name": "brick/math",
@@ -432,6 +432,62 @@
                 }
             ],
             "time": "2022-06-18T20:57:19+00:00"
+        },
+        {
+            "name": "fahadchy24/laravel-unique-slug",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fahadchy24/laravel-unique-slug-generator.git",
+                "reference": "e2afebe27ef0e5095ee80d4162a0d60ad8e77899"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fahadchy24/laravel-unique-slug-generator/zipball/e2afebe27ef0e5095ee80d4162a0d60ad8e77899",
+                "reference": "e2afebe27ef0e5095ee80d4162a0d60ad8e77899",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Fahad\\LaravelUniqueSlug\\UniqueSlugServiceProvider"
+                    ],
+                    "aliases": {
+                        "UniqueSlug": "Fahad\\LaravelUniqueSlug\\UniqueSlug"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fahad\\LaravelUniqueSlug\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fahad Ahmed Chowdhury",
+                    "email": "fahadchy24@gmail.com"
+                }
+            ],
+            "description": "A simple and beautiful unique slug generator for Laravel eloquent model.",
+            "homepage": "https://github.com/fahadchy24/laravel-unique-slug-generator",
+            "keywords": [
+                "laravel",
+                "laravel-unique-slug",
+                "laravel_unique_slug"
+            ],
+            "support": {
+                "issues": "https://github.com/fahadchy24/laravel-unique-slug-generator/issues",
+                "source": "https://github.com/fahadchy24/laravel-unique-slug-generator/tree/v0.2.0"
+            },
+            "time": "2022-11-26T12:49:50+00:00"
         },
         {
             "name": "fruitcake/php-cors",

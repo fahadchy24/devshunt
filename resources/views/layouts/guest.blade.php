@@ -14,7 +14,7 @@
     @include('layouts.partials.scripts')
 </head>
 
-<body class="font-poppins text-gray-800 overflow-x-hidden" id="top"">
+<body class="font-poppins text-gray-800 overflow-x-hidden" id="top">
     @include('layouts.partials.navbar')
     <div>
         {{ $slot }}

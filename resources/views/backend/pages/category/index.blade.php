@@ -19,4 +19,10 @@
 
 @section('scripts')
     {{ $dataTable->scripts(attributes: ['type' => 'module']) }}
+
+    <script>
+        $('#modal').on('shown.bs.modal', function() {
+            $('#deleteCategory').trigger('focus')
+        })
+    </script>
 @endsection

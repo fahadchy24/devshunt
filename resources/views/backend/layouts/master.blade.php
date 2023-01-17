@@ -9,13 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>@yield('title') - {{ config('app.name') }}</title>
-
+    <title>@yield('title', 'Admin Panel') | {{ config('app.name') }}</title>
     @include('backend.partials.styles')
 
-    {{-- Custom Styles --}}
+    {{-- Custom styles --}}
     @yield('styles')
-
 </head>
 
 <body id="page-top">
@@ -38,7 +36,7 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container-fluid px-5">
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -49,7 +47,6 @@
                     </div>
 
                     @include('backend.partials.messages')
-
                     @yield('admin-content')
 
                 </div>

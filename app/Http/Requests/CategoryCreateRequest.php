@@ -25,7 +25,11 @@ class CategoryCreateRequest extends FormRequest
     {
         return [
             'name' => 'required|max:100',
-            'description' => 'nullable|string|min:3|max:1000',
+            'description' => 'nullable|string|min: 3|max: 1000',
+            'parent_id' => 'nullable|integer',
+            'priority' => 'nullable|integer',
+            'enable_homepage' => 'nullable|integer',
+            'logo' => 'nullable|image|max:5000',
         ];
     }
 }

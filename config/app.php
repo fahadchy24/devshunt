@@ -186,6 +186,7 @@ return [
          * Package Service Providers...
          */
         Yajra\DataTables\DataTablesServiceProvider::class,
+        Fahad\LaravelUniqueSlug\UniqueSlugServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -211,6 +212,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
+        'UniqueSlug' => Fahad\LaravelUniqueSlug\Facades\UniqueSlug::class,
     ])->toArray(),
 
 ];

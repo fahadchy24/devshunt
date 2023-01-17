@@ -10,4 +10,7 @@
 
 {{-- Datatable CSS --}}
 <link href="{{ asset('vendors/datatables/datatables.min.css') }}" rel="stylesheet">
-<link href="{{ asset('vendors/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
+{{-- <link href="{{ asset('vendors/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet"> --}}
+
+{{-- Custom styles --}}
+<link href="{{ asset('backend/css/main.css') }}" rel="stylesheet">
