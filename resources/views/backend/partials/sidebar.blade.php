@@ -26,6 +26,29 @@
         Interface
     </div>
 
+    <!-- Nav Item - Page -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePage"
+            aria-expanded="true" aria-controls="collapsePage">
+            <i class="fas fa-fw fa-file"></i>
+            <span>Page</span>
+        </a>
+        <div id="collapsePage"
+            class="collapse {{ Route::is('admin.pages.index') || Route::is('admin.pages.create') || Route::is('admin.pages.edit') ? 'show' : '' }}"
+            aria-labelledby="collapseCategory" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                {{-- @if ($user->can('page.view')) --}}
+                    <a class="collapse-item {{ Route::is('admin.pages.index') || Route::is('admin.pages.edit') ? 'active' : '' }}"
+                        href="{{ route('admin.pages.index') }}">Manage pages</a>
+                {{-- @endif --}}
+                {{-- @if ($user->can('page.create')) --}}
+                    <a class="collapse-item {{ Route::is('admin.pages.create') ? 'active' : '' }}"
+                        href="{{ route('admin.pages.create') }}">New Page</a>
+                {{-- @endif --}}
+            </div>
+        </div>
+    </li>
+
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseCategory"

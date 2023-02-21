@@ -18,7 +18,7 @@
         {{-- <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Success:">
             <use xlink:href="#check-circle-fill" />
         </svg> --}}
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
         <div>
             {{ session()->get('success') }}
         </div>
